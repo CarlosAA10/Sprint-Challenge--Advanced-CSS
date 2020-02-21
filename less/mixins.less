@@ -1,1 +1,23 @@
 // Mixins Here
+
+.flex-center(){
+    display:flex; 
+    justify-content:center;
+}
+
+.flex-wrap(){
+    display:flex;
+    flex-wrap: wrap;
+}
+
+// parametric mixins
+
+.custom-btn(@font-size, @bg-color, @color){
+    text-align: center;
+    width: 30%;
+    padding: 3%; 
+    font-size: @font-size;
+    background-color: @bg-color; 
+    border-radius: 12px; 
+    color: @color;
+}
