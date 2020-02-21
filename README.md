@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+an adaptive website is a website that changes its layout at certain breakpoints, however a fully responsive website respects the screensize it is under and keeps a smooth layout as you switch through different screensizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is when you design an  app first (or webpage) for mobile devices first and you use min-width for the breakpoints. Desktop first is when a webpage or app is made for desktop view first and utilizes the max-width for the breakpoints
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+the font-size: 62.5% in the HTML tag is the percentage that is ideal for rem units because it scales 1rem = 10px. This 10 base unit allows for easy conversions for when a developer wants to change the font-size. This prevents the headache of having to get a calculator to calculate the size of the font one wishes to use, which should not have to be a concern for the developer so they have time to focus on what matters most to their project. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is taking CSS further to make the coding process easier for the developer so that they do not have to worry about specificty while working on their projects. while it is important to be aware of specificty rules and to utilize them, preprocessing allows you to not have to repeat various code and get a headache from looking at what is missing an extra tag or class to just target that certain element. This allows for the developer to focus on the more creative side of their projects instead of the syntactic parts. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I enjoy the ease that preprocessing gives developers, It allows me to really understand nesting and parent-child relationships better. I do not have any troubles with any of the material thusfar so I am happy for that. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
